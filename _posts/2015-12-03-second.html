@@ -1,41 +1,4 @@
-{% extends 'layout/index.layout.html.twig' %}
 
-{# 首页没有面包屑 #}
-{% block breadcrumb %}
-{% endblock %}
-
-{# 首页不在顶部提示信息 #}
-{% block alert %}
-{% endblock %}
-
-	{% block meta_tag %}
-        <meta name="360-site-verification" content="d3767fa6e31f986f4f3c6f4a1ba7cfd3"/>
-        <meta name="description" content="云筹是国内首批专注天使投资的私募股权众筹投资平台，是首家开展筹后管理的私募股权众筹投资平台，是中国证券协会首批股权众筹会员单位，获“最佳股权众筹平台”、“年度众筹行业卓越服务品牌”等荣誉。建立“专业领投、大众跟投”的私募股权融资模式，帮创业者融资，帮投资人增值。" />
-        <meta name="keywords" content="云筹,股权众筹,私募股权众筹平台,众筹平台,众筹投资,众筹网站" />
-        <meta name="sogou_site_verification" content="aCfuJHhe8E"/>
-        <meta name="shenma-site-verification" content="8716e03dfc3c955ab695da3a93270872_1433147658">
-        <meta name="baidu-site-verification" content="elYcfln9UV" />
-    {% endblock %}
-
-{% block stylesheets %}
-    {{ parent() }}
-    {% stylesheets '../app/Resources/less/app/index.less' %}
-    <link rel="stylesheet" href="{{ asset_url }}" />
-    {% endstylesheets %}
-{% endblock %}
-
-{% block javascripts %}
-    {{ parent() }}
-    {% javascripts
-    '../app/Resources/js/lib/cookies.min.js'
-    '../app/Resources/js/app/index.js'
-    '../app/Resources/js/app/progress.js'
-    %}
-    <script src="{{ asset_url }}"></script>
-    {% endjavascripts %}
-{% endblock %}
-
-{# 首页主内容 #}
 {% block content %}
     <input type="hidden" id="referer" value="{{ referer }}">
     {% if index_data is defined and index_data is not empty %}
