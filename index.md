@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: This is a page for yunchouTest!
+tagline: 呵呵哒
 ---
 {% include JB/setup %}
 
