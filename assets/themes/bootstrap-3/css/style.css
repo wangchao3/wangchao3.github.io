@@ -1,8 +1,3 @@
-//说明：
-//1、为了使Footer粘在底部，并且保持全屏显示，因此footer使用了固定高度，也就是说，如果footer内容增加导致高度增加，那就需要在这里修改footer的高度，同时还要修改body的margin-bottom的高度（用于footer的占位）。
-
-
-//html
 html{
   -webkit-text-size-adjust:100%;
   -ms-text-size-adjust:100%;
@@ -12,24 +7,24 @@ html{
   position: relative;
   min-height: 100%;
 }
-//body
+
 body{
   background-color: #E9EAEC!important;
   margin-bottom: 262px;
   color: #666666!important;
 }
-//link
+
 a:hover{
   text-decoration: none;
 }
-//hr
+
 hr.eee_hr{
   border-top: 1px solid @gray-lighter;
 }
 hr.ccc_hr{
   border-top: 1px solid #ccc;
 }
-//grid
+
 .max-width-md-4{
   max-width: 33.33333%;
 }
@@ -42,14 +37,11 @@ hr.ccc_hr{
 .full-width{
   width:100%;
 }
-//img
+
 img{
   max-width: 100%;
 }
-//tooltip
-.tooltip {
-}
-//glyphicon
+
 .glyphicon-danger{
   color: @brand-danger;
 }
@@ -67,7 +59,7 @@ img{
   animation: glyphicon-spin 2s infinite linear;
 }
 
-//animation
+
 /* Spin */
 @-webkit-keyframes glyphicon-spin {
   0% {
@@ -90,7 +82,7 @@ img{
   }
 }
 
-//specify
+
 #top{
   margin-bottom: 0;
   background-color: #fff;
@@ -108,19 +100,12 @@ img{
     }
   }
 }
-//color
+
 @blue:#00b7ee;
 @red:#d1201e;
 @green:#00d19f;
 @black:#000000;
-//custom feature
-.shadow-box{
-  //  -moz-box-shadow: 1px 2px 2px rgba(0,0,0,0.3);
-  //  -webkit-box-shadow: 1px 2px 2px rgba(0,0,0,0.3);
-  //  box-shadow: 1px 2px 2px rgba(0,0,0,0.3);
-  background-color: #fff;
-  //  border-left: 1px solid #d5d5d5;
-}
+
 .radius-box{
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -128,13 +113,13 @@ img{
   padding: 15px;
   background-color:#fff;
 }
-//no-border
+
 .no-border-top{
   border-top: 0;
   border-top-right-radius: 0!important;
   border-top-left-radius: 0!important;
 }
-//panel list
+
 .panel ul.panel-list {
   list-style: none;
   margin:0;
@@ -157,7 +142,7 @@ img{
 .panel ul.panel-list-child>li{
   padding: 0.2em 0;
 }
-//special background color
+
 .gray-darker-bak{
   background-color: @gray-darker;
   color: @gray-lighter;
@@ -181,7 +166,7 @@ img{
 .white-bak{
   background-color: #fff;
 }
-//inline-list
+
 ul.inline-list{
   list-style: none;
   margin: 0;
@@ -202,7 +187,7 @@ a.white-link,.white-link a,.white-link a:visited{
 a.white-link:hover,a.white-link:focus,.white-link a:hover,.white-link a:focus{
   color: #fff;
 }
-//no margin or padding
+
 .no-top-gutter{
   margin-top:0;
   padding-top:0;
@@ -211,7 +196,7 @@ a.white-link:hover,a.white-link:focus,.white-link a:hover,.white-link a:focus{
   margin-bottom: 0;
   padding-bottom: 0;
 }
-//bottom gutter
+
 .bottom-gutter{
   padding-bottom: @base_gutter;
 }
@@ -219,40 +204,40 @@ a.white-link:hover,a.white-link:focus,.white-link a:hover,.white-link a:focus{
   margin-bottom: @base_gutter;
 }
 
-//top gutter
+
 .top-gutter{
   padding-top: @base_gutter;
 }
 .top-gutter-margin{
   margin-top: @base_gutter;
 }
-//right gutter
+
 .right-gutter{
   padding-right: @base_gutter;
 }
-//left gutter
+
 .left-gutter{
   padding-left: @base_gutter;
 }
 .left-gutter-2x{
   padding-left: @base_gutter*2;
 }
-//border
+
 .right-border{
   border-right: 1px dotted #ccc;
 }
-//有些在中文下不太好看
+
 .list-group-item-heading{
   margin-bottom: 10px;
 }
-//footer
+
 .footer{
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 262px;
 }
-//box
+
 .success-box{
   box-shadow: 0 0 5px @brand-success;
 }
@@ -265,7 +250,7 @@ a.white-link:hover,a.white-link:focus,.white-link a:hover,.white-link a:focus{
 .danger-box{
   box-shadow: 0 0 5px @brand-danger;
 }
-//label
+
 .label-close{
   font-weight: bold;
   line-height: 1;
@@ -283,11 +268,11 @@ a.white-link:hover,a.white-link:focus,.white-link a:hover,.white-link a:focus{
   max-height: 250px;
   overflow-x: hidden;
 }
-//border
+
 .left-border{
   border-left: 1px solid @gray-lighter;
 }
-//add by wangchao
+
 .hr {
   margin-top: 26px;
   margin-bottom: 26px;
@@ -319,7 +304,7 @@ ul.nav.navbar-nav{
   color: #333333!important;
 }
 
-// 覆写nav-tabs by-wangchao
+
 .nav-tabs > li.active > a {
   border-radius: 0;
   margin: 0;
@@ -433,7 +418,7 @@ ul>li {
 .backtop:hover {
   background:url(/media/image/user/frontpage/top2.png) no-repeat;
 }
-//进度条
+
 .new{
   position: relative;
   .span1 {
@@ -589,7 +574,7 @@ ul>li {
   padding-left: 0;
 }
 
-//查看更多样式
+
 .expandMore {
   float: right;
 }
