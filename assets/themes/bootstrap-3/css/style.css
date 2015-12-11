@@ -629,16 +629,15 @@ a.topIcon {
 .topIcon>i {
   font-size: 30px;
 }
-.basetwigImg {
-  .col-sm-12  {
+.basetwigImg .col-sm-12 {
     height: 27px;
   }
-  img {
-    margin-right: 10px;
-  }
-  a {
-    color: #FFFFFF;
-  }
+
+.basetwigImg img {
+  margin-right: 10px;
+}
+.basetwigImg a {
+  color: #FFFFFF;
 }
 .red-border {
   border-bottom: 1px solid red;
