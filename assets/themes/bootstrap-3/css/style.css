@@ -312,11 +312,9 @@ input::-ms-clear{
 }
 .red-border {
   border-bottom: 1px solid red;
-  width: 160px;
   padding-top: 26px;
   float: left;
 }
-2v
-p {
-  word-wrap: break-word;
+.navbar {
+    margin-bottom: 0
 }
