@@ -3,7 +3,7 @@ layout: page
 title: This is a page for yunchouTest!
 tagline: 呵呵哒
 ---
-{% include JB/setup %}
+{% include themes/bootstrap-3/default.html %}
 
 <div class="container-fluid">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
