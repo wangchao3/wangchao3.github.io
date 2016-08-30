@@ -34,6 +34,7 @@ img {
 
 #index_banner>.item>div {
     min-height: 1080px;
+    width: 100%;
 }
 
 .navbar {
