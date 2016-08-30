@@ -36,3 +36,7 @@ img {
     margin: 0 auto;
     height: 350px;
 }
+
+.navbar {
+    margin-bottom: 0;
+}
