@@ -31,3 +31,8 @@ a:hover {
 img {
   max-width: 100%;
 }
+
+#index_banner img {
+    margin: 0 auto;
+    height: 350px;
+}
