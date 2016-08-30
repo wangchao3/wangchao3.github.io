@@ -32,7 +32,7 @@ img {
   max-width: 100%;
 }
 
-#index_banner img {
+#index_banner>.item>div {
     min-height: 1080px;
 }
 
