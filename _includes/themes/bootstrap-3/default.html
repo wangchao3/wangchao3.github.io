@@ -80,7 +80,9 @@
     </div>
 
 <footer class="footers">
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+    <div class="container">
+        <p class="text-center">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+    </div>
 </footer>
 
 {% include JB/analytics %}
