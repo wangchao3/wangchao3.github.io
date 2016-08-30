@@ -8,26 +8,6 @@ html {
   min-height: 100%;
 }
 
-@blue: #00b7ee;
-@red: #d1201e;
-@green: #00d19f;
-@black: #000000;
-@white: #ffffff;
-
-body {
-  background-color: #black;
-  color: @white;
-}
-
-a {
-    color: @white;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: @white;
-}
-
 img {
   max-width: 100%;
 }
