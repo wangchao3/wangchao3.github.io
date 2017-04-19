@@ -1,1 +1,37 @@
-Sorry this page does not exist =(
+---
+title: Page not found
+permalink: 404.html
+layout: default
+name: 404
+sitemap: false
+hide: true
+---
+
+<style>
+    .container.content {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        padding-top: 56px;
+    }
+    .content {
+        padding-top: 0;
+    }
+</style>
+
+<div class="search-page notfound-page">
+    <div class="search-box">
+        <form class="search-form container" id="search_form" action="/search" method="GET">
+            <div class="search-input">
+                <input type="text" name="q" placeholder="输入关键词搜索" class="search-input-inner" id="search_input" />
+                <button type="submit" class="search-btn icon-search"></button>
+            </div>
+        </form>
+    </div>
+    <div class="result-list posts container">
+        <h1 class="page-title">404: Page not found</h1>
+    <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ site.baseurl }}/">Head back home</a> to try finding it again.</p>
+    </div>
+</div>
